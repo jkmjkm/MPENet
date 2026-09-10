@@ -59,11 +59,12 @@ python eval_4x.py
    /0007.png  
 ```
 - **Step II.**  Change the `dataroot_gt` and `dataroot_lq` in `options/test/MPENet/test_MPENet_FY.yml` to your data path.
-- **Step III.**  Run the test.py
+- **Step III.**  Run the [test.py](https://github.com/jkmjkm/MPENet/blob/master/basicsr/test.py)
 ```
 python basicsr/test.py -opt options/test/MPENet/test_MPENet_FY.yml
 ```
 ### Train
+Run the [train.py](https://github.com/jkmjkm/MPENet/blob/master/basicsr/train.py)
 ```
 python basicsr/train.py -opt options/train/MPENet/train_MPENet_FY.yml
 ```
