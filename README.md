@@ -23,20 +23,14 @@ git clone https://github.com/jkmjkm/MPENet.git
  > * basicsr 1.4.2 
 
 ## 🎁 Dataset
-The dataset for training and testing will be available soon
-
-[//]: # (The dataset for training and testing is available at [this link]&#40;https://pan.quark.cn/s/4574669f4922?pwd=4Hf7&#41;.<br>)
+The dataset for training and testing is available at [this link]&#40;https://pan.quark.cn/s/4574669f4922?pwd=4Hf7&#41;.<br>
+### Data Source
+This dataset is derived from the Level-1 (L1) data of the **Fengyun-4B (FY-4B)** satellite,
+which is publicly shared by the **National Satellite Meteorological Center (NSMC)** of China.
+- Official data portal: [http://satellite.nsmc.org.cn/](http://satellite.nsmc.org.cn/)
+- The raw L1 data was converted to PNG images and cropped into region patches to form this dataset.
  ![image](/fig/data.png)
 
-[//]: # (| Data Type | [AID]&#40;https://captain-whu.github.io/AID/&#41; | [DOTA-v1.0]&#40;https://captain-whu.github.io/DOTA/dataset.html&#41; | [DIOR]&#40;https://www.sciencedirect.com/science/article/pii/S0924271619302825&#41; | [NWPU-RESISC45]&#40;https://ieeexplore.ieee.org/abstract/document/7891544&#41;)
-
-[//]: # (| :----: | :-----: | :----: | :----: | :----: |)
-
-[//]: # (|Training | [Download]&#40;https://captain-whu.github.io/AID/&#41; | None | None | None |)
-
-[//]: # (|Testing | [Download]&#40;https://captain-whu.github.io/AID/&#41; | [Download]&#40;https://captain-whu.github.io/DOTA/dataset.html&#41; | [Download]&#40;https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC&#41; | [Download]&#40;https://onedrive.live.com/?authkey=%21AHHNaHIlzp%5FIXjs&id=5C5E061130630A68%21107&cid=5C5E061130630A68&parId=root&parQt=sharedby&o=OneUp&#41;)
-
-[//]: # (🚩Please refer to [Dataset Processing]&#40;https://github.com/XY-boy/TTST/tree/main/dataload&#41; to build the LR-HR training pairs.)
 ## 🧩 Usage
 ### Quick Test
 [Download Pre-trained Model](https://github.com/jkmjkm/MPENet/blob/master/experiments/pretrained_models/net_g_145000.pth)
