@@ -23,7 +23,7 @@ git clone https://github.com/jkmjkm/MPENet.git
  > * basicsr 1.4.2 
 
 ## 🎁 Dataset
-The dataset for training and testing is available at [this link]&#40;https://pan.quark.cn/s/4574669f4922?pwd=4Hf7&#41;.<br>
+The dataset for training and testing is available at [this link](https://pan.quark.cn/s/4574669f4922?pwd=4Hf7).<br>
 ### Data Source
 This dataset is derived from the Level-1 (L1) data of the **Fengyun-4B (FY-4B)** satellite,
 which is publicly shared by the **National Satellite Meteorological Center (NSMC)** of China.
